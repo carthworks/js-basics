@@ -23,5 +23,6 @@ function findSecondLargest(arr) {
     return { max, secondMax };
 }
 
-var arr = [3,2,7,9,11,45,12];
+// var arr = [3,2,7,9,11,45,12];
+var arr = [5, 5, 5, 5]; // Test case with all elements equal
 console.log(findSecondLargest(arr));
