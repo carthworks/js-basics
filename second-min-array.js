@@ -1,7 +1,7 @@
-var min = Infinity;
-var sec = Infinity;
+let min = Infinity;
+let sec = Infinity;
 
-var arr = [3,2,7,9,11,45,12];
+let arr = [3,2,7,9,11,45,12];
 
 for (let n of arr) {
     if (n < min) {
